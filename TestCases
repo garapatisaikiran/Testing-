@@ -1,0 +1,27 @@
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class Testing
+{
+    @Test
+    public void addTest()
+    {
+        Calculator c=new Calculator();
+        assertEquals(5,c.add(2,3));
+    }
+
+    @Test
+    public void subTest()
+    {
+        Calculator c=new Calculator();
+        assertEquals(5,c.sub(10,5));
+    }
+
+    @Test
+    public void mulTest()
+    {
+        Calculator c=new Calculator();
+        assertEquals(20,c.mul(2,10));
+    }
+}
